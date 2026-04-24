@@ -55,7 +55,7 @@ class MemorySearch:
 
         self.mem0_client = Memory.from_config(config_dict=config)
         self.top_k = top_k  # 搜索的记忆数量
-        self.openai_client = OpenAI(api_key="sk-abba92a8ee1641c59fdcb83f5ce388de", base_url="https://api.deepseek.com")
+        self.openai_client = OpenAI(api_key="", base_url="")
         # self.results = defaultdict(list)
         self.results = []
         self.output_path = output_path  # 结果输出路径
